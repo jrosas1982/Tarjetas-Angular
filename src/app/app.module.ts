@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms'
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment';
-import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
@@ -27,7 +26,6 @@ import { ListarTarjetaComponent } from './components/listar-tarjeta/listar-tarje
     AppRoutingModule,
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAnalyticsModule,
     AngularFirestoreModule,
     CommonModule,
     BrowserAnimationsModule, // required animations module
