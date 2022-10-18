@@ -1,4 +1,16 @@
+
 # TarjetasAngular
+
+
+Que podemos encontrar:
+
+1) Formularios reactivos 
+2) Validaciones en formularios
+3) Boton desahabilitado hasta que el formulario sea valido
+4) Configuración y uso de firebase
+5) Comunicacion entre copmponentes 
+6) ABM de datos en firestore
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
